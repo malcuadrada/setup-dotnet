@@ -1,4 +1,5 @@
 name: 'Setup .NET Core SDK'
+uses: actions/setup-dotnet@v3.2.0
 description: 'Used to build and publish .NET source. Set up a specific version of the .NET and authentication to private NuGet repository'
 author: 'GitHub'
 branding:
